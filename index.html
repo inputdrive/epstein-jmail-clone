@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JMail Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar: Email List -->
+    <nav class="sidebar">
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search emails...">
+      </div>
+      <ul id="emailList" class="email-list"></ul>
+    </nav>
+
+    <!-- Main Content: Email Viewer -->
+    <main class="main">
+      <div id="emailViewer" class="viewer">
+        <p>Select an email to view.</p>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
